@@ -25,7 +25,7 @@
 int
 pthread_setcanceltype (int type, int *oldtype)
 {
-  struct pthread_internal_t *p = __get_thread ();
+  struct pthread_internal_t *p = pthread_self();
 	int newflags;
 	
 	pthread_init();

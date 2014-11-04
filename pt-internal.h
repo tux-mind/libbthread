@@ -59,8 +59,6 @@ struct pthread_internal_t {
 	pthread_mutex_t cancel_lock; 
 };
 
-extern struct pthread_internal_t* __get_thread(void);
-
 /* Has the thread a cancellation request? */
 #define PTHREAD_ATTR_FLAG_CANCEL_PENDING 0x00000008
 
