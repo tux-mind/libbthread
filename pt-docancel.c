@@ -31,7 +31,7 @@ int
 __pthread_do_cancel (struct pthread_internal_t *p)
 {
 	
-	if(p == __get_thread())
+	if(p == (struct pthread_internal_t *)pthread_self())
     call_exit ();
   else if(p->attr.flags & PTHREAD_ATTR_FLAG_CANCEL_HANDLER)
     pthread_kill((pthread_t)p, SIGRTMIN);

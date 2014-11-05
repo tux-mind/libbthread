@@ -24,7 +24,7 @@
 void
 pthread_testcancel (void)
 {
-  struct pthread_internal_t *p = __get_thread ();
+  struct pthread_internal_t *p = (struct pthread_internal_t*)pthread_self();
   int cancelled;
 	
 	pthread_init();
