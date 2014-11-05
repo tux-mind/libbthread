@@ -25,7 +25,7 @@
 int
 pthread_setcancelstate (int state, int *oldstate)
 {
-  struct pthread_internal_t *p = pthread_self();
+  struct pthread_internal_t *p = (struct pthread_internal_t*)pthread_self();
 	int newflags;
 
 	pthread_init();
