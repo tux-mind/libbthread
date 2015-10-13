@@ -1,5 +1,5 @@
 AC_PREREQ([2.69])
-AC_INIT([bthread], [0.2], [])
+AC_INIT([libbthread], [0.2], [])
 AC_CONFIG_SRCDIR([pt-cancel.c])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([foreign])
