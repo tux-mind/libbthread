@@ -14,6 +14,9 @@ i hope that you find this library useful :wink:
 
 -- tux_mind
 
-Project is licensed under GNU LGPL (Library General Public License)
+License
+==========
+
+Project is licensed under GNU LGPL v2.0 (Library General Public License)
 
 pt-internal.h - is from The Android Open Source Project and licensed under Apache License, Version 2.0
