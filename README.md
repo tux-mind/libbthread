@@ -13,3 +13,7 @@ there is many thing to develop, like support for deferred cancels, but basic thr
 i hope that you find this library useful :wink: 
 
 -- tux_mind
+
+Project is licensed under GNU LGPL (Library General Public License)
+
+pt-internal.h - is from The Android Open Source Project and licensed under Apache License, Version 2.0
