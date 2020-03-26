@@ -25,9 +25,8 @@ set(pt-test pt-test.c)
 set(pt-testcancel pt-testcancel.c)
 
 
-# Build a shared lib
+# Build a static lib
 add_library(cancelthread STATIC ${pt-cancel} ${pt-docancel} ${pt-init} ${pt-setcancelstate} ${pt-setcanceltype} ${pt-test} ${pt-testcancel})
-
 
 
 target_link_libraries(cancelthread -lz -ldl -lm -lpthread)
